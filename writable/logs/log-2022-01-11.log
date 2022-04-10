@@ -1,0 +1,26 @@
+ERROR - 2022-01-11 02:17:23 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-01-11 02:17:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\acflr_ta\app\Controllers\Home.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-11 08:22:49 --> Trying to get property 'year' of non-object
+#0 C:\xampp\htdocs\acflr_ta\app\Views\dashboard.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\acflr_ta\app\Controllers\Home.php(18): view('dashboard', Array)
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

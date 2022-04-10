@@ -1,0 +1,800 @@
+CRITICAL - 2022-01-18 00:54:34 --> Undefined variable: sorted_value
+#0 C:\xampp\htdocs\acflr_ta\app\Views\dashboard_forecast.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_forec...', Array, true)
+#4 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(26): view('dashboard_forec...')
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 00:55:49 --> Undefined variable: actual_value
+#0 C:\xampp\htdocs\acflr_ta\app\Views\dashboard_forecast.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_forec...', Array, true)
+#4 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(33): view('dashboard_forec...')
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 03:13:27 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_forec...', Array, true)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(33): view('dashboard_forec...', Array)
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 03:13:39 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_forec...', Array, true)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(33): view('dashboard_forec...', Array)
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-01-18 04:06:04 --> Table 'db_ta_widya.natural rubber' doesn't exist
+CRITICAL - 2022-01-18 04:06:04 --> Table 'db_ta_widya.natural rubber' doesn't exist
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(26): App\Models\NR_Model->ascending_data()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 04:07:32 --> Trying to get property 'actual_value' of non-object
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 04:07:48 --> Undefined index: actual_value
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 04:19:30 --> Call to undefined method App\Models\NR_Model::fts_forecasting
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(29): CodeIgniter\Model->__call('fts_forecasting', Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 04:21:02 --> Call to undefined method App\Models\NR_Model::fts_forecasting
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(29): CodeIgniter\Model->__call('fts_forecasting', Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 04:26:00 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NR_M...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NR_M...')
+#3 [internal function]: spl_autoload_call('App\\Models\\NR_M...')
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(136): class_exists('App\\Models\\NR_M...')
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(8): model('App\\Controllers...')
+#8 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\NRController->__construct()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#10 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-01-18 04:27:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `actual_vol` DESC LIMIT 1) 
+        UNION ALL
+        (SELECT actu...' at line 1
+CRITICAL - 2022-01-18 04:27:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `actual_vol` DESC LIMIT 1) 
+        UNION ALL
+        (SELECT actu...' at line 1
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('(SELECT actual_...', 0)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('(SELECT actual_...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('(SELECT actual_...')
+#3 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(20): CodeIgniter\Database\BaseConnection->query('(SELECT actual_...')
+#4 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(26): App\Models\NR_Model->ascending_data()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 04:31:05 --> min(): When only one parameter is given, it must be an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'min(): When onl...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(32): min(Object(stdClass))
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-18 05:09:36 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NR_M...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NR_M...')
+#3 [internal function]: spl_autoload_call('App\\Models\\NR_M...')
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(136): class_exists('App\\Models\\NR_M...')
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(8): model('App\\Controllers...')
+#8 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\NRController->__construct()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#10 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-01-18 05:14:58 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 05:19:29 --> Unsupported operand types
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 05:20:04 --> Unsupported operand types
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 05:20:05 --> Unsupported operand types
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:25:54 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:28:31 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:28:32 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:28:35 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:33:10 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:33:12 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:35:20 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:35:21 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:36:08 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:36:09 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:37:42 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:37:43 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:40:45 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:40:46 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:42:34 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:42:35 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:42:50 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:42:51 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:43:21 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:47:01 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:47:02 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:49:35 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:51:09 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:51:10 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:51:11 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:51:11 --> Class 'forecast_fts' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:52:15 --> Cannot declare class forecast_fts, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 08:53:05 --> Cannot declare class forecast_fts, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 08:53:07 --> Cannot declare class forecast_fts, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 08:53:08 --> Cannot declare class forecast_fts, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 08:53:14 --> Cannot declare class forecast_fts, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 08:53:15 --> Cannot declare class forecast_fts, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 08:53:23 --> Cannot declare class forecast_fts, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 08:53:55 --> Cannot declare class forecast, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 08:54:13 --> Class 'forecast' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:56:33 --> Class 'forecast' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:56:34 --> Class 'forecast' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:56:34 --> Class 'forecast' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 08:57:21 --> Cannot declare class forecast, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 08:59:29 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NR_M...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NR_M...')
+#4 [internal function]: spl_autoload_call('App\\Models\\NR_M...')
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(136): class_exists('App\\Models\\NR_M...')
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#8 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(8): model('App\\Controllers...')
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\NRController->__construct()
+#10 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#11 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-01-18 09:00:47 --> Class 'App\Models\forecast' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 09:01:24 --> Cannot declare class forecast, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 09:01:51 --> Cannot declare class Forecast, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 09:01:52 --> Cannot declare class Forecast, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 09:03:28 --> Class 'Forecast' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 09:05:10 --> Class 'app\Models\Forecast' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 09:07:38 --> Class 'Forecast' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 09:10:15 --> Class 'Forecast' not found
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 09:11:09 --> Cannot declare class forecast\Forecast, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 09:11:52 --> Undefined variable: actual_value
+#0 C:\xampp\htdocs\acflr_ta\app\Views\dashboard_forecast.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_forec...', Array, true)
+#4 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(30): view('dashboard_forec...')
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 09:17:05 --> Undefined property: App\Models\FTS::$data
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(20): App\Models\FTS->first_init()
+#2 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(31): App\Models\FTS->interval_init()
+#3 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-18 09:17:46 --> Undefined property: stdClass::$minmax
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(25): App\Models\FTS->first_init()
+#2 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(31): App\Models\FTS->interval_init()
+#3 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-18 09:55:56 --> The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence
+#0 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'The behavior of...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(5): require()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NR_M...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NR_M...')
+#6 [internal function]: spl_autoload_call('App\\Models\\NR_M...')
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(136): class_exists('App\\Models\\NR_M...')
+#8 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#10 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(8): model('App\\Controllers...')
+#11 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\NRController->__construct()
+#12 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#13 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2022-01-18 09:56:17 --> Undefined property: stdClass::$value
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(33): App\Models\FTS->fuzzification(Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 09:56:31 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(33): App\Models\FTS->fuzzification(Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-18 09:57:16 --> Undefined property: stdClass::$actual_value
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(33): App\Models\FTS->fuzzification(Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 09:57:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(33): App\Models\FTS->fuzzification(Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 09:58:43 --> Trying to get property 'count_row' of non-object
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(26): App\Models\FTS->first_init()
+#2 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(31): App\Models\FTS->interval_init()
+#3 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-18 10:01:36 --> Trying to get property 'actual_vol' of non-object
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(35): App\Models\FTS->fuzzification(Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 10:02:35 --> Undefined index: lBound
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(35): App\Models\FTS->fuzzification(Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 10:03:07 --> Undefined variable: fuzz
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(35): App\Models\FTS->fuzzification(Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 10:06:23 --> The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence
+#0 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'The behavior of...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(5): require()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NR_M...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NR_M...')
+#6 [internal function]: spl_autoload_call('App\\Models\\NR_M...')
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(136): class_exists('App\\Models\\NR_M...')
+#8 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#10 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(8): model('App\\Controllers...')
+#11 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\NRController->__construct()
+#12 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#13 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2022-01-18 10:06:35 --> Undefined index: actual_vol
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(35): App\Models\FTS->fuzzification(Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 10:06:54 --> Undefined offset: 14
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(35): App\Models\FTS->fuzzification(Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 10:07:27 --> Undefined offset: 14
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(35): App\Models\FTS->fuzzification(Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 10:11:34 --> Trying to get property 'bound' of non-object
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(26): App\Models\FTS->first_init()
+#2 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(34): App\Models\FTS->interval_init()
+#3 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(27): App\Models\NR_Model->fts_forecasting()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-18 10:22:21 --> Undefined variable: actual_value
+#0 C:\xampp\htdocs\acflr_ta\app\Views\dashboard_forecast.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_forec...', Array, true)
+#4 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(30): view('dashboard_forec...')
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 10:22:53 --> Undefined variable: actual_value
+#0 C:\xampp\htdocs\acflr_ta\app\Views\dashboard_forecast.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_forec...', Array, true)
+#4 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(34): view('dashboard_forec...', Array)
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 10:22:54 --> Undefined variable: actual_value
+#0 C:\xampp\htdocs\acflr_ta\app\Views\dashboard_forecast.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_forec...', Array, true)
+#4 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(34): view('dashboard_forec...', Array)
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 10:33:17 --> Undefined offset: 51
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(38): App\Models\FTS->flr(Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(32): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 10:35:47 --> Undefined index: fuzz
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(38): App\Models\FTS->flr(Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(32): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 23:08:49 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 23:09:08 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 23:09:47 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 23:11:11 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 536870920 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 23:11:35 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 536870920 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 23:15:26 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NR_M...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NR_M...')
+#4 [internal function]: spl_autoload_call('App\\Models\\NR_M...')
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(136): class_exists('App\\Models\\NR_M...')
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#8 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(8): model('App\\Controllers...')
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\NRController->__construct()
+#10 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#11 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-01-18 23:19:50 --> Undefined index: rh
+#0 C:\xampp\htdocs\acflr_ta\app\Models\FTS.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\acflr_ta\app\Models\NR_Model.php(40): App\Models\FTS->flrg(Array, Array)
+#2 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(32): App\Models\NR_Model->fts_forecasting()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,20 @@
+CRITICAL - 2022-01-13 05:36:54 --> Call to undefined method App\Models\NR_Model::last
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\Home.php(17): CodeIgniter\Model->__call('last', Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-13 06:10:51 --> Undefined variable: actual_value
+#0 C:\xampp\htdocs\acflr_ta\app\Views\dashboard_forecast.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_forec...', Array, true)
+#4 C:\xampp\htdocs\acflr_ta\app\Controllers\NRController.php(26): view('dashboard_forec...')
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NRController->forecast()
+#6 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NRController))
+#7 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

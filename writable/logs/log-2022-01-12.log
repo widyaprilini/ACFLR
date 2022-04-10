@@ -1,0 +1,48 @@
+CRITICAL - 2022-01-12 09:17:17 --> Call to undefined method App\Models\NR_Model::latest
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\Home.php(17): CodeIgniter\Model->__call('latest', Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-12 09:18:49 --> Call to undefined method App\Models\NR_Model::getLastRow
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\Home.php(17): CodeIgniter\Model->__call('getLastRow', Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-12 09:18:50 --> Call to undefined method App\Models\NR_Model::getLastRow
+#0 C:\xampp\htdocs\acflr_ta\app\Controllers\Home.php(17): CodeIgniter\Model->__call('getLastRow', Array)
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-12 09:24:22 --> Unsupported operand types
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 09:24:39 --> Unsupported operand types
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 09:24:40 --> Unsupported operand types
+#0 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\acflr_ta\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\acflr_ta\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-12 10:32:27 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
